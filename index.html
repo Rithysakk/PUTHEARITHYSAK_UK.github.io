@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebForm</title>
+
+    <style>
+        .card{
+            background-color: #ecbcb4;
+            width: 70%;
+        }
+        .submit{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+    <h3>Respondent information</h3>
+    <form novalidate>
+        <label>Username</label> <br>
+        <input type="text" name="username" required><br>
+        <label>ID</label> <br>
+        <input type="text" name="ID" required><br><br>
+        
+        <label>Gender: </label>
+        <input type="radio" id="html" name="gender" value="male">
+        <label for="html">male</label>
+        <input type="radio" id="html" name="gender" value="female">
+        <label for="html">female</label><br><br>
+
+        <label for="faculty">Choose a faculty:</label>
+  <select name="faculty" id="faculty">
+    <option value="science">Science</option>
+    <option value="computer_science">Computer Science</option>
+    <option value="education">Education</option>
+    <option value="business_adminstration">Business adminstration</option>
+    <option value="humanity">Humanity and social science</option>
+    <option value="techno">Technology</option>
+    <option value="agri">agriculture</option>
+    <option value="nurse">Nursing</option>
+    <option value="public_health">Public health</option>
+    <option value="laws">Laws</option>
+    <option value="thai med">Thai Traditional medicine</option>
+  </select><br>,<br>
+
+  <label for="Colors">Choose a Colors: </label>
+  <input type="checkbox" id="color1" name="color1" value="Red">
+  <label for="color1">Red</label>
+  <input type="checkbox" id="color2" name="color2" value="Green">
+  <label for="color2">Green</label>
+  <input type="checkbox" id="color3" name="color3" value="Blue">
+  <label for="color1">Blue</label><br><br>
+
+  <label for="Colors">Choose a Fruits: </label>
+  <input type="checkbox" id="fruit1" name="fruits" value="Mango">
+  <label for="fruit1">Mango</label>
+  <input type="checkbox" id="fruit2" name="fruits" value="Custard apple">
+  <label for="fruit2">Custard apple</label>
+  <input type="checkbox" id="fruit3" name="fruits" value="Durian">
+  <label for="fruit3">Durian</label>
+  <input type="checkbox" id="fruit4" name="fruits" value="Longan">
+  <label for="fruit4">Longan</label>
+  <input type="checkbox" id="fruit5" name="fruits" value="Guava">
+  <label for="fruit5">Guava</label>
+  <input type="checkbox" id="fruit6" name="fruits" value="Watermelon">
+  <label for="fruit6">Watermelon</label><br><br>
+
+  <label for="food">Choose Thai foods:  </label>
+  <input type="checkbox" id="food1" name="food" value="food">
+  <label for="food1">ต้มยำกุ้ง</label>
+  <input type="checkbox" id="food2" name="food" value="food">
+  <label for="food2">ไข่เจียวหมูสับ</label>
+  <input type="checkbox" id="food3" name="food" value="food">
+  <label for="food3">แกงข่าไก่</label>
+  <input type="checkbox" id="food4" name="food" value="food">
+  <label for="food4">แกงเขียวหวานไก่</label>
+  <input type="checkbox" id="food5" name="food" value="food">
+  <label for="food5">ผัดไทย</label>
+  <input type="checkbox" id="food6" name="food" value="food">
+  <label for="food6">รัตนาหมี่กรอบ</label><br><br>
+
+  <div class="submit">
+      <input type="submit" value="submit" required>
+  </div>
+  
+        
+    </form>
+
+</div>
+</body>
+</html>
